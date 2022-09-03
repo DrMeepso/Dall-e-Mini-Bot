@@ -25,8 +25,8 @@ bot.on("ready", () => {
 
 	var rest = new REST({ version: '9' }).setToken(bot.token);
 
-	rest.put(Routes.applicationGuildCommands(bot.user.id, '691458137261342760'), { body: commands })
-	rest.put(Routes.applicationCommands(bot.user.id), { body: commands },);
+	//rest.put(Routes.applicationGuildCommands(bot.user.id, '691458137261342760'), { body: commands }) This is for my bot testing server you can Igore/Remove it 
+	rest.put(Routes.applicationCommands(bot.user.id), { body: commands });
 
 })
 
