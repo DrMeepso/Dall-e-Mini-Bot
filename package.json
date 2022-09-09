@@ -13,7 +13,7 @@
     "@discordjs/builders": "^1.0.0",
     "@discordjs/rest": "^1.0.1",
     "@types/node": "^18.0.6",
-    "canvas": "^2.9.3",
+    "canvas": "^2.10.1",
     "discord-api-types": "^0.36.3",
     "discord.js": "^14.0.3",
     "superagent": "^8.0.0"
